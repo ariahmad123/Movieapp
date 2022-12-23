@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block list %}
 {% load static %}
+<link rel="stylesheet" href="sweetalert2.min.css">
 <div class="slider movie-items">
 {% include 'trending.html'%}
 </div>
@@ -222,5 +223,8 @@
 	</div>
 </div>
 <!-- movie cast -->
+<script src="sweetalert2.min.js"></script>
+<script src="sweetalert2.all.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 {% endblock list %}

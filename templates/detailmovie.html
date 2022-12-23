@@ -57,8 +57,8 @@
 						</div>
 						<div class="rate-star">
 							<p>Rate This Movie:  </p>
-							{% for i in '10000000'|make_list %}
-							{% if i <= data.date %}
+							{% for i in '123456789'|make_list %}
+							{% if i <= data.rating %}
 							<i class="ion-android-star"></i>
 							{% else %}
 							<i class="ion-android-star-outline"></i>
